@@ -35,5 +35,5 @@ Além do modelo preditivo, o projeto entrega uma **interface gráfica interativa
    pip install pandas numpy scikit-learn matplotlib seaborn gradio
 
 3. **Execute o sistema:**
-  ```bash
+   ```bash
    python main.py
