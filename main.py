@@ -94,7 +94,12 @@ interface = gr.Interface(
     ],
     outputs=gr.Text(label="Resultado da Previsão da Inteligência Artificial"),
     title="🩺 Sistema Inteligente de Triagem Cardíaca",
-    description="Preencha os dados clínicos para a IA classificar o risco de doença cardíaca."
+    description="Preencha os dados clínicos para a IA classificar o risco de doença cardíaca.",
+
+
+    flagging_mode="never",
+    submit_btn="Realizar Diagnóstico",
+    clear_btn="Limpar Dados"
 )
 
 if __name__ == "__main__":
